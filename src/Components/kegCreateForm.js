@@ -3,19 +3,19 @@ import { v4 } from 'uuid';
 import PropTypes from "prop-types";
 import ReusableForm from './ReusableForm';
 
-function NewkegForm(props) {
+function KegCreateForm(props) {
   return (
     <React.Fragment>
       <h1>add a new keg
       </h1>
       <ReusableForm
-        formSubmissionHandler={handleNewkegFormSubmission}
+        formSubmissionHandler={handleKegCreateFormSubmission}
         buttonText="Add Keg" />
     </React.Fragment>
   );
-  function handleNewkegFormSubmission(event) {
+  function handleKegCreateFormSubmission(event) {
     event.preventDefault();
-    props.onNewkegCreation({
+    props.onKegCreateCreation({
       name: event.target.name.value,
       brand: event.target.brand.value,
       price: event.target.price.value,
@@ -27,8 +27,8 @@ function NewkegForm(props) {
   }
 }
 
-NewkegForm.propTypes = {
-  onNewkegCreation: PropTypes.func
+KegCreateForm.propTypes = {
+  onKegCreateCreation: PropTypes.func
 };
 //creatform
-export default kegCreateForm;
+export default KegCreateForm;

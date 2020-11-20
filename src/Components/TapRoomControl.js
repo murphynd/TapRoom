@@ -1,5 +1,9 @@
 import React from 'react';
-import KegList from './kegList';
+import KegList from './KegList';
+import KegCreateForm from './KegCreateForm';
+import KegDetail from './KegDetail';
+import KegEditForm from './KegEditForm';
+
 
 
 class TapRoomControl extends React.Component {
@@ -134,7 +138,7 @@ class TapRoomControl extends React.Component {
       buttonText = "Return to Keg List";
     } else if (this.state.visible) {
       currentlyVisibleState =
-        <NewKegForm
+        <KegCreateForm
           onNewKegCreation={this.handleAddingNewKegToList} />
       buttonText = "Return to Keg List";
     } else {
