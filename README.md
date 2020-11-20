@@ -19,11 +19,11 @@
     </p>
     <!-- Project Shields -->
     <p align="center">
-        <a href="https://github.com/LondresRi/README-Assistance/issues">
+        <a href="https://github.com/murphynd/TapRoom/issues">
             <img src="https://img.shields.io/github/issues/LondresRi/README-Assistance?style=plastic">
         </a>
         ¨
-        <a href="https://github.com/LondresRi/Best-ReadMe-Template/blob/master/LICENSE.txt">
+        <a href="https://opensource.org/licenses/MIT">
             <img src="https://img.shields.io/github/license/LondresRi/README-Assistance?color=orange&style=plastic">
         </a>
         ¨
@@ -79,7 +79,7 @@ Once again, make sure to plan your application first and include a component dia
 
 ### 🦠 Known Bugs
 
-* None known yet. <a href="https://github.com/LondresRi/README-Assistance/issues">Please report if you discover any.</a>
+* None known yet. <a href="https://github.com/murphynd/TapRoom/issues">Please report if you discover any.</a>
 
 ### 🛠 Built With
 * [React](https://reactjs.org/)
@@ -124,11 +124,11 @@ If you have any feedback or concerns, please contact one of the contributors.
 
 ### ⚖️ License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2020 Shawn Lunsford. All Rights Reserved.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2020 Natalie Murphy. All Rights Reserved.
 ```
 MIT License
 
-Copyright (c) 2020 Natalie Murphy and William Donovan-Seid.
+Copyright (c) 2020 Natalie Murphy
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
