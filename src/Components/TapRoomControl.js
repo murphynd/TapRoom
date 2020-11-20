@@ -28,13 +28,18 @@ class TapRoomControl extends React.Component {
     }
   }
 
-  handleAddingKegCreateToList = (newKeg) => {
+  handleAddingKegToList = (newKeg) => {
     const newMasterKegList = this.state.masterKegList.concat(newKeg);
     this.setState({
       masterKegList: newMasterKegList,
       visible: false
     });
   }
+  handleChangingSlecetedKeg = (id) => {
+    const selectedKeg = this.state.masterKegList.filter(keg => keg.id === id)[0];
+    this.setState({ selectedKeg: selectedKeg });
+  }
+
 
 
 
@@ -42,12 +47,17 @@ class TapRoomControl extends React.Component {
   render() {
     let currentlyVisibleState = null;
     let buttonText = null;
-    if (this.state.visible) {
+    if (this.state.selectedItem != null) {
+      currentlyVisibleState =
+        <KegDetial
+          keg={this.state.selectedKeg} />
+      buttonText = "Return to Item List";
+    } if else (this.state.visible) {
       currentlyVisibleState =
         <KegCreateForm
-          onKegCreateCreation={this.handleAddingKegCreateToList} />
+          onKegCreateCreation={this.handleAddingKegToList} />
       buttonText = "Return to Keg List";
-    } else {
+    }else {
       currentlyVisibleState =
         <KegList
           kegList={this.state.masterKegList}
@@ -62,5 +72,6 @@ class TapRoomControl extends React.Component {
     );
   }
 }
+
 
 export default TapRoomControl;
