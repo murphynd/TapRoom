@@ -32,9 +32,9 @@ function ReusableForm(props) {
           </div>
           <div class="form-group">
             <input
-              type='number'
+              type='text'
               name='quantity'
-              defaultValue="0"
+              placeholder='number of kegs'
               min="0" />
           </div>
           <button type="button" className="btn btn-primary" type='submit'>{props.buttonText}</button>
