@@ -1,12 +1,12 @@
 <br>
 <p align="center">
-  <u><big>||&emsp;<b><u>Merch Site in React</u></b>&emsp;||</big></u>
+  <u><big>||&emsp;<b><u>TapRoom in React</u></b>&emsp;||</big></u>
 </p>
 <p align="center">
     <!-- Project Avatar/Logo -->
     <br>
     <a href="https://github.com/Murphynd">
-        <img style="border-radius: 100%" src="">
+        <img style="border-radius: 100%" src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/clinking-beer-mugs.png">
     </a>
     <p align="center">
       ___________________________
