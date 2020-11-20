@@ -28,8 +28,16 @@ class TapRoomControl extends React.Component {
   }
 
 
+
+
   render() {
     let currentlyVisibleState = null;
+    let buttonText = null;
+    currentlyVisibleState =
+      <KegList
+        kegList={this.state.masterKegList}
+        onKegSelection={this.handleChangingSelectedKeg} />;
+    buttonText = "Add keg";
     return (
       <React.Fragment>
         {currentlyVisibleState}

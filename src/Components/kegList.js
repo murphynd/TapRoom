@@ -6,7 +6,7 @@ function KegList(props) {
   return (
     <React.Fragment>
       <div className="card">
-        <h1>Tap Room</h1>
+        <h1>Tap List</h1>
         <hr />
         {props.kegList.map((keg) =>
           <Keg
