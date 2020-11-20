@@ -1,5 +1,6 @@
 import React from 'react';
 import KegList from './KegList';
+import KegCreateForm from './KegCreateForm';
 
 class TapRoomControl extends React.Component {
 
@@ -27,20 +28,36 @@ class TapRoomControl extends React.Component {
     }
   }
 
+  handleAddingKegCreateToList = (newKeg) => {
+    const newMasterKegList = this.state.masterKegList.concat(newKeg);
+    this.setState({
+      masterKegList: newMasterKegList,
+      visible: false
+    });
+  }
+
 
 
 
   render() {
     let currentlyVisibleState = null;
     let buttonText = null;
-    currentlyVisibleState =
-      <KegList
-        kegList={this.state.masterKegList}
-        onKegSelection={this.handleChangingSelectedKeg} />;
-    buttonText = "Add keg";
+    if (this.state.visible) {
+      currentlyVisibleState =
+        <KegCreateForm
+          onKegCreateCreation={this.handleAddingKegCreateToList} />
+      buttonText = "Return to Keg List";
+    } else {
+      currentlyVisibleState =
+        <KegList
+          kegList={this.state.masterKegList}
+          onKegSelection={this.handleChangingSelectedKeg} />;
+      buttonText = "Add keg";
+    }
     return (
       <React.Fragment>
         {currentlyVisibleState}
+        <button type="button" className="btn btn-outline-success" onClick={this.handleClick}>{buttonText}</button>
       </React.Fragment>
     );
   }

@@ -15,7 +15,7 @@ function ReusableForm(props) {
           <div className="form-group">
             <input
               type='text'
-              brand='brand'
+              name='brand'
               placeholder='Brand Name' />
           </div>
           <div className="form-group">

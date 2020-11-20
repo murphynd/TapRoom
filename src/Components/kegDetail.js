@@ -12,7 +12,6 @@ function KegDetail(props) {
 
     </React.Fragment >
   );
-
 }
 
 KegDetail.propTypes = {
