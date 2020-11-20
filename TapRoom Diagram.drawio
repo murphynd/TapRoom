@@ -1,1 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T19:55:48.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="zpdUiurY_SSziA61eIEz" version="13.9.9" type="github"><diagram id="qGH2kA17Jl6WoIhGz6rN" name="Page-1">3Zldk5sgFIZ/jZftiIgml5tkPzrTXmU6vWaVjUxQHCSbpL++WDEJH9vd6Rg341X0BSI8vhwOGMBleXgUuC5+8JywIArzQwBXQRSBMEzVT6scOyWGWtgImutKZ2FNf5O+pVZ3NCeNUVFyziStTTHjVUUyaWhYCL43q71wZj61xhviCOsMM1f9RXNZdOoMhWf9idBN0T9ZjbgrKXFfWQtNgXO+v5DgfQCXgnPZXZWHJWEtvJ5L1+7hjdJTxwSp5IcazLsWr5jt9OB0x+SxH63guyonbYMwgIt9QSVZ1zhrS/fq/SqtkCVTd0Bduh3QfXolQpLDhaQ79Eh4SaQ4qip9KepaaHNAjWp/QTrSVYoLymmsK2L9djenfz4DUBeagZ9H/15uiUcPQPM49fECSDoPXSAoGgLI+zzeIYCbupuDL/TQUhsESfrVNEk0c6FEsQdKNIRL4E1CUQHIZJIilwnyMUEDMIlvb+IkoTlz4sQ1CYg8QJIBeCCHxwMXpcNEDUWaA2+k4Fuy5IwLpVS8UjUXL5QxS8KMbip1mylAROmLFgxVi9SdLihpnreP8ZI238UAsGMLdjR3YXsn5ACsU4f1N0nK77SR0+V9Mu4n8J7dZPxD6ANrwtXin5tIrYjElDXTtWCSfJ4FAXB4/2O9AeMkanZWEiMXiC9Tg0MAcTO19e65pBMOgdBKeOIx/efmgHd5roR25ZkucmvGx8hNMa9G3M0wf9Y5lkQ1XBFG2oupYk+tPSAKR3S6m8muJReKdrjkleLJpssdxlZK4TmMANADHgwBPnFDTF1PF7a9gxgzmn8gox392MfOJgB0g2068xBJhyDi7qmeCM6VTSbrPzg3/Qc8xwXXMmDvt1syIAgjy4HQk89e7QClD6HWrn7C+ykQmwaE6YgGdBebJRZSJ7Qu9LHNiKyVGHmseAp8xko8RDT0nDBlBcm2fOdur0Y/5ZyZrknGnKSeoyBBGsmzbdA+cgE+HQ+ytyyeUyEvnkE+FLinFM+745dboGLH9tiTXYDQ853tP7io2/Mnzb9lFx+G4f0f</diagram></mxfile>
+<mxfile host="65bd71144e" modified="2020-11-20T20:21:45.878Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="cFw-u84sznk0_GAD6a3s" version="13.6.5">
+    <diagram id="qGH2kA17Jl6WoIhGz6rN" name="Page-1">
+        <mxGraphModel dx="1208" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="15" y="30" width="1125" height="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="15" y="240" width="1090" height="590" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Form&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="680" width="250" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="280" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Keg list" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="290" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;b&gt;Keg Details page&lt;br&gt;&lt;br&gt;&amp;nbsp;current number of pints in key (0 -124)&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="830" y="270" width="250" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Store Control" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="230" width="130" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Tap Room App" style="text;html=1;strokeColor=#3700CC;fillColor=#6a00ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="80" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="37.5" y="135" width="1082.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Header" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="160" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;font color=&quot;#000000&quot;&gt;update&lt;/font&gt;" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.shaded_button;dx=6;fillColor=#E6E6E6;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1010" y="460" width="60" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="edit form" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="580" width="170" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Kegs&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="505" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Kegs&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="535" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Kegs&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="565" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;font color=&quot;#000000&quot;&gt;Submit&lt;/font&gt;" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.shaded_button;dx=6;fillColor=#E6E6E6;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="860" width="60" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="45" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;font color=&quot;#000000&quot;&gt;add keg&lt;/font&gt;" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.shaded_button;dx=6;fillColor=#E6E6E6;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="560" width="60" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;font color=&quot;#000000&quot;&gt;Submit&lt;/font&gt;" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.shaded_button;dx=6;fillColor=#E6E6E6;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1000" y="750" width="60" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="34" target="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1010" y="482.5" as="sourcePoint"/>
+                        <mxPoint x="490" y="635" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="740" y="483"/>
+                            <mxPoint x="740" y="695"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="&lt;ul&gt;&lt;li&gt;Kegs&lt;/li&gt;&lt;li&gt;&amp;nbsp;Name&amp;nbsp;&lt;/li&gt;&lt;li&gt;Style&lt;/li&gt;&lt;li&gt;Brand&lt;/li&gt;&lt;li&gt;&amp;nbsp;Price alc&lt;/li&gt;&lt;li&gt;current state of pints&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="320" width="150" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="&lt;font color=&quot;#000000&quot;&gt;sell (decrease by 1&amp;nbsp;&lt;br&gt;till 0 or sold out)&lt;br&gt;&lt;/font&gt;" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.shaded_button;dx=10;fillColor=#E6E6E6;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="385" width="130" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="sell&amp;nbsp;&lt;br&gt;Almost Empty 1 &amp;lt; inv&amp;nbsp; &amp;lt; 10&lt;br&gt;then Out of Stock inv = 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="390" width="170" height="130" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
