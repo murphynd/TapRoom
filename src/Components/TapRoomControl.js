@@ -43,11 +43,10 @@ class TapRoomControl extends React.Component {
   }
 
 
-
   render() {
     let currentlyVisibleState = null;
     let buttonText = null;
-    if (this.state.selectedItem != null) {
+    if (this.state.selectedKeg != null) {
       currentlyVisibleState =
         <KegDetail
           keg={this.state.selectedKeg} />
