@@ -8,13 +8,15 @@ function KegEditForm(props) {
     event.preventDefault();
     props.onEditKeg({
       name: event.target.name.value,
+      brand: event.target.brand.value,
+      price: event.target.price.value,
+      abv: event.target.abv.value,
       quantity: parseInt(event.target.quantity.value),
-      description: event.target.description.value
     })
   }
   return (
     <React.Fragment>
-      <h1>Edit item</h1>
+      <h1>Edit beer</h1>
       <ReusableForm
         formSubmissionHandler={handleKegEditFormSubmission}
         buttonText="Edit Keg" />
