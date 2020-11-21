@@ -30,7 +30,7 @@ function ReusableForm(props) {
               name='abv'
               placeholder='ABV' />
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <input
               type='text'
               name='quantity'

@@ -24,6 +24,7 @@ function KegCreateForm(props) {
       quantity: parseInt(event.target.quantity.value),
       id: v4()
     });
+
   }
 }
 
