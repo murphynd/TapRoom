@@ -39,20 +39,20 @@
   <small>By Natalie Murphy</small>
 </p>
 
-------------------------------
+---
 
 ## 🌐 About the Project
 
 ### 📖 Description
+
 &emsp;Tap Room
 
-- see a list/menu of all available kegs. 
+- see a list/menu of all available kegs.
 - For each keg, see its name, brand, price and alcoholContent.
 - submit a form to add a new keg to a list.
 - able to click on a keg to see its detail page.
 - see how many pints are left in a keg. Hint: A full keg has roughly 124 pints.
 - able to click a button next to a keg whenever I sell a pint of it. This should decrease the number of pints left by 1. Pints should not be able to go below 0.
-
 
 Further Exploration
 
@@ -62,7 +62,7 @@ Further Exploration
 - kegs with less than 10 pints to include a message that says "Almost Empty" so I can try a pint before it's gone!
 - have kegs prices to be color-coded for easy readability. This could be based on their price, the style of beer or kombucha, or the amount of pints left.
 - this application to be nicely styled. (Use stylesheets and CSS objects!)
-Objectives
+  Objectives
 
 This week's progress will be checked using the following objectives:
 
@@ -75,19 +75,20 @@ This week's progress will be checked using the following objectives:
 - Project demonstrates an understanding of this week's concepts. If prompted, you can discuss your code with an instructor using the correct terminology.
 
 Once again, make sure to plan your application first and include a component diagram in your README.
-<img src="">
+<img src="https://raw.githubusercontent.com/murphynd/TapRoom/master/TapRoom%20Diagram.png">
 
 ### 🦠 Known Bugs
 
-* None known yet. <a href="https://github.com/murphynd/TapRoom/issues">Please report if you discover any.</a>
+- None known yet. <a href="https://github.com/murphynd/TapRoom/issues">Please report if you discover any.</a>
 
 ### 🛠 Built With
-* [React](https://reactjs.org/)
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [HTML5](https://html.com/html5/)
-* [Markdown](https://daringfireball.net/projects/markdown/)
 
-------------------------------
+- [React](https://reactjs.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [HTML5](https://html.com/html5/)
+- [Markdown](https://daringfireball.net/projects/markdown/)
+
+---
 
 ## 🏁 Getting Started
 
@@ -95,36 +96,35 @@ Once again, make sure to plan your application first and include a component dia
 
 ### Interactive Development Environment
 
-  &emsp;To view or edit the document which may include some HTML code, you will need an code editor or text editor. The popular open-source choices for an code editor are Atom and VisualStudio Code.
+&emsp;To view or edit the document which may include some HTML code, you will need an code editor or text editor. The popular open-source choices for an code editor are Atom and VisualStudio Code.
 
-  1) Code Editor Download:
-     * Option 1: [Atom](https://nodejs.org/en/)
-     * Option 2: [VisualStudio Code](https://www.npmjs.com/)
-  2) Click the download most applicable to your OS and system.
-  3) Wait for download to complete, then install -- Windows will run the setup exe and macOS will drag and drop into applications.
-  4) Optionally, create a [GitHub Account](https://github.com)
+1. Code Editor Download:
+   - Option 1: [Atom](https://nodejs.org/en/)
+   - Option 2: [VisualStudio Code](https://www.npmjs.com/)
+2. Click the download most applicable to your OS and system.
+3. Wait for download to complete, then install -- Windows will run the setup exe and macOS will drag and drop into applications.
+4. Optionally, create a [GitHub Account](https://github.com)
 
 ### ⚙️ Setup and Use
 
-
-------------------------------
+---
 
 ### 🤝 Contributors
 
-| Author | GitHub | Email |
-|--------|:------:|:-----:|
-| [Natalie Murphy](https://linkedin.com/in/murphynd) | [Murphynd](https://github.com/Murphynd) |  [NatalieMurphy500@gmail.com](mailto:nataliemurphy500@gmail.com) |
+| Author                                             |                 GitHub                  |                              Email                              |
+| -------------------------------------------------- | :-------------------------------------: | :-------------------------------------------------------------: |
+| [Natalie Murphy](https://linkedin.com/in/murphynd) | [Murphynd](https://github.com/Murphynd) | [NatalieMurphy500@gmail.com](mailto:nataliemurphy500@gmail.com) |
 
-------------------------------
+---
 
 ### ✉️ Contact and Support
 
-If you have any feedback or concerns, please contact one of the contributors.
-------------------------------
+## If you have any feedback or concerns, please contact one of the contributors.
 
 ### ⚖️ License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Copyright (C) 2020 Natalie Murphy. All Rights Reserved.
+
 ```
 MIT License
 
@@ -149,15 +149,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-------------------------------
+---
 
 ### 🌟 Acknowledgments
 
 #### [Epicodus](https://www.epicodus.com/)
->"A school for tech careers... to help people learn the skills they need to get great jobs."
 
-------------------------------
+> "A school for tech careers... to help people learn the skills they need to get great jobs."
+
+---
 
 <center><a href="#">Return to Top</a></center>
-
-
