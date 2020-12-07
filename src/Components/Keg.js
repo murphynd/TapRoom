@@ -6,14 +6,25 @@ function Keg(props) {
     <React.Fragment>
       <div ClassName="card">
         <div onClick={() => props.whenKegClicked(props.id)}>
-          <h3>{props.name}</h3>
-          <h4>Stock: {props.pints > 0 ? props.pints : 'Out of Stock'}</h4>
-
+          {props.name}
+          {props.brand}
+          Stock: {props.pints > 0 ? props.pints : "Out of Stock"}
         </div>
-        <button> <p>${props.price}  pint</p> </button>
+        <button
+          className="btn btn-danger"
+          onClick={() => props.sellButton(props.id)}
+        >
+          ${props.price} pint
+        </button>
+        <button
+          className="btn btn-danger"
+          onClick={() => props.restockButton(props.id)}
+        >
+          Restock
+        </button>
         <hr />
       </div>
-    </React.Fragment >
+    </React.Fragment>
   );
 }
 
@@ -25,7 +36,9 @@ Keg.propTypes = {
   pints: PropTypes.number,
   quantity: PropTypes.number,
   id: PropTypes.string,
-  whenKegClicked: PropTypes.func
+  onClickingBuy: PropTypes.func,
+  whenKegClicked: PropTypes.func,
+  sellButton: PropTypes.func,
 };
 
 export default Keg;
